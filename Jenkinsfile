@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/devops-docker-app.git'
+                git 'https://github.com/mansijadhav07/devops-docker-app.git'
             }
         }
 
